@@ -1,2 +1,4 @@
 # Ignore all exe files, it not need
 *.exe
+*.o
+*.c
