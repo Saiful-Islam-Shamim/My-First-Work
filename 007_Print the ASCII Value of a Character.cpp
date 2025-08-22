@@ -4,10 +4,13 @@ using namespace std;
 
 int main()
 {
-    char cha;
-    cout << "Enter a character: ";
-    cin >> cha;
-    cout << "The ASCII value is " << int(cha);
+    int num1, num2, sum;
+    cout << "Enter first number: ";
+    cin >> num1;
 
+cout << "Enter second number: ";
+    cin >> num2;
+    sum = num1 + num2;
+    cout << "sum =" << sum << endl;
     getch();
 }
