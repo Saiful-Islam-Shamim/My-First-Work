@@ -14,7 +14,10 @@ int main()
     int a,b;
     cout << "Enter Two number : ";
     cin >>a>>b;
-    cout <<"gcd is : " <<gcd(a,b);
+    cout <<"gcd is : " <<gcd(a,b)<<endl;
+
+    int LCD = ((a* b)/gcd(a,b));
+    cout << "Lcd is : " << LCD;
     getch();
 }
 
