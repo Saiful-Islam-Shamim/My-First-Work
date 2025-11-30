@@ -29,9 +29,21 @@ int main()
     {
         for(int j = 0; j<col; j++)
         {
-            cout << matrix[i][j]<< "   ";
+            //cout << matrix[i][j]<< "   ";
+            if(matrix[0][0]<matrix[i][j])
+        {
+            cout << matrix[i][j] << " is the largest matrix.";
+
+        }
         }
         cout <<endl;
+
+
+        // output 2;
+
+
+
     }
     return 0;
 }
+
